@@ -1,0 +1,21 @@
+alert_id,timestamp,alert_type,severity,asset,asset_criticality,source_ip,failed_attempts,malicious_ip,after_hours,affected_users,description
+A001,2026-08-21 09:15,Ransomware Detection,98,Database Server,100,185.44.12.10,0,1,0,15,Ransomware activity detected on production database
+A002,2026-08-21 09:25,SQL Injection,92,Payment Server,100,45.12.88.21,0,1,1,8,Suspicious SQL injection attempts against payment application
+A003,2026-08-21 10:10,Brute Force Attack,82,Web Server,85,91.22.15.44,50,1,1,6,Repeated login attempts from suspicious external source
+A004,2026-08-21 10:45,Malware Detection,88,Production Server,90,192.168.10.25,0,1,0,3,Malware detected on production system
+A005,2026-08-21 11:30,Privilege Escalation,85,Domain Controller,95,192.168.1.44,0,0,1,2,Unexpected administrator privilege escalation
+A006,2026-08-21 12:15,Port Scan,60,Web Server,80,44.22.19.31,0,0,0,1,Multiple ports scanned from external IP
+A007,2026-08-21 13:10,Failed Login,40,Employee Laptop,40,192.168.1.25,3,0,0,1,Three failed login attempts
+A008,2026-08-21 14:20,Suspicious PowerShell,70,Employee Laptop,45,192.168.1.55,0,0,1,1,Suspicious PowerShell command detected
+A009,2026-08-21 15:00,Phishing Email,65,Employee Laptop,50,77.88.12.11,0,1,0,4,Malicious attachment detected in email
+A010,2026-08-21 16:10,Failed Login,35,Test Machine,20,192.168.2.10,2,0,0,1,Two failed login attempts
+A011,2026-08-21 18:30,Brute Force Attack,78,Database Server,100,91.55.33.22,20,1,1,10,Multiple authentication attempts against database
+A012,2026-08-21 19:15,Data Exfiltration,95,Database Server,100,66.21.44.18,0,1,1,12,Large unexpected outbound data transfer
+A013,2026-08-21 20:00,Port Scan,55,Test Machine,20,12.44.22.10,0,0,1,1,Port scanning activity against test machine
+A014,2026-08-21 20:30,Malware Detection,75,Employee Laptop,50,192.168.1.77,0,1,1,1,Malware detected on employee endpoint
+A015,2026-08-21 21:00,Failed Login,30,Employee Laptop,40,192.168.1.90,2,0,1,1,Two failed login attempts outside business hours
+A016,2026-08-21 21:30,Ransomware Detection,100,Payment Database,100,103.45.77.21,50,1,1,20,Active ransomware behavior detected on critical payment database
+A017,2026-08-21 22:10,Data Exfiltration,98,Production Database,100,89.122.44.18,50,1,1,18,Large unauthorized data transfer detected from production database
+A018,2026-08-21 23:05,Privilege Escalation,92,Admin Server,95,172.16.44.21,25,1,1,8,Unauthorized privilege escalation detected on administrative server
+A019,2026-08-22 00:20,SQL Injection,88,Customer Database,90,185.33.91.44,15,1,1,6,Repeated SQL injection attempts targeting customer database
+A020,2026-08-22 01:15,Malware Detection,75,Finance Workstation,70,91.204.18.77,5,1,1,2,Malicious executable detected on finance workstation
