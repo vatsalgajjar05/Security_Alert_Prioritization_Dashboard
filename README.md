@@ -9,7 +9,6 @@ The main objective was to demonstrate what a typical analyst scenario looks like
 
 ## What This Project Does
 
-- Reads sample alert data from a CSV file.
 - Calculates a weighted risk score for each alert.
 - Assigns priority levels: `CRITICAL`, `HIGH`, `MEDIUM`, `LOW`.
 - Provides filter/search controls for investigation.
