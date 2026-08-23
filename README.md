@@ -1,12 +1,11 @@
 # Security Alert Prioritization Dashboard
 
-A practical SOC-style mini project built during internship work to help analysts prioritize alerts faster using a weighted risk score.
-
-This dashboard takes raw security alerts, calculates a final risk score, maps each alert to a priority bucket, and presents the results in a clean Streamlit UI for quick triage.
+A hands-on SOC-style mini-project that I created as part of an internship assignment to assist security analysts in triaging their alerts more quickly by use of a weighted risk score.
+The dashboard processes raw security alerts and outputs a final risk score and assigns a priority level to each alert, and visualizes the data in an easy to understand Streamlit application to more quickly triage security alerts.
 
 ## Internship Task Context
 
-The goal of this task was to simulate a real analyst workflow where multiple alerts arrive together and need to be handled in the right order. Instead of reviewing alerts manually one by one, this project creates a repeatable scoring method so higher-risk alerts naturally move to the top.
+The main objective was to demonstrate what a typical analyst scenario looks like when they get lots of alerts together and have to make sure that they are acted upon in the proper order. Rather than having a person going through alerting one-by-one, this project built some type of consistent rating that should push the alerting with higher risk level up.
 
 ## What This Project Does
 
